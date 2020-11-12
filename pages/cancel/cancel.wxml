@@ -1,0 +1,13 @@
+<view class="main">
+    <view class="hd">
+        <view class="hd-desc">重新叫车将等待</view>
+        <view class="hd-desc">更长的时间，建议您再等等</view>
+        <view class="rules">取消行程，需要付费补偿骑手</view>
+    </view>
+    
+    <view class="ft">
+        <button class="cancel" bindtap="BackWait" >暂不取消</button>
+        <button class="schooldi-btn" bindtap="toOrder">确定取消</button>
+    </view>
+
+</view>

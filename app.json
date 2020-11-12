@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/starting/starting",
+    "pages/destination/destination",
+    "pages/cars/cars",
+    "pages/wait/wait",
+    "pages/order/order",
+    "pages/login/login",
+    "pages/orderClosed/orderClosed",
+    "pages/orderService/orderService",
+    "pages/cancel/cancel"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1b1b1f",
+    "navigationBarTitleText": "校园DI",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

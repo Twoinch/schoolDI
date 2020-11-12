@@ -1,0 +1,16 @@
+ <view class="container">
+    <view class="hd">
+        <view class="hd-img"><image src="../../assets/images/remind.png"/></view>
+        <view class="hd-dec">您上车的站点为<text class="hd-dec_address">「{{address}}」</text></view>
+    </view>
+    <view class="bd">
+        <view class="bd_titl">
+            <text class="titl-maxdesc">正在为您寻找车车.....</text>
+            <text class="title-mindesc">每人一小步，更快更顺路</text>
+        </view>
+    </view>
+    <view class="ft">
+        <view class="cancel" bindtap="toCancel">取消订单</view>
+        <view class="notcarpool" bindtap="backIndex">回到主页</view>
+    </view>
+</view>

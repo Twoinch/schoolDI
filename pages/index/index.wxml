@@ -1,0 +1,56 @@
+<view class="container">
+    <!-- tab导航栏 -->
+    <view class="section">
+        <view class="nav-me" bindtap="showUser">
+            <image src="../../assets/images/nav-me.png"/>
+        </view>
+        <view  class="nav" >
+            <view>--适用校区：云南大学呈贡校区</view>
+        </view>
+        <navigator url= "/pages/cars/cars" >
+        <view class="nav-all">
+            <image src="../../assets/images/nav-all.png"/>
+        </view>
+        </navigator>
+    </view>
+    
+<repeat wx:if="{{callCart}}">
+    <view class="content">         
+        <view class="circle-str"></view>
+             <navigator url= "/pages/starting/starting" redirect > 
+                <view class="schooldi-input-str" style="color: #333333">{{address}}</view>
+             </navigator>
+             <navigator url=  "/pages/destination/destination" redirect >
+                <input type="text" class="schooldi-input-end" value="{{destination}}"  style="color: #333333" placeholder="你要去哪儿" placeholder-color="#ccccccc" focus="{{false}}"/>
+            </navigator>
+            <view class="circle-end"></view>
+        <button class="didi-btn"bindtap="toCast">呼叫{{cart}}</button>
+    </view>
+    <swiper class="tab-box"  current="{{currentTab}}"  bindchange="switchTab"></swiper>
+</repeat>   
+                                                            
+<repeat wx:else>
+    <view class="cost-content">          
+        <view class="cost-addr">
+            <view class="circle-str"></view>
+            <navigator url= "/pages/starting/starting" redirect > 
+            <view class="star-addr">{{address}}</view>
+            </navigator>
+            <navigator url=  "/pages/destination/destination" redirect >
+            <view class="end-addr">{{destination}}</view>
+            <view class="circle-end"></view>
+            </navigator>
+        </view>
+        <view class="cost">
+            <view class="cost-pic">
+                    <view class="carpooling  {{index==1?'on':''}}"data-index="1" bindtap="switchCart">
+                        <text class="carpooling-name">电驴</text>
+                        <text class="money" style="font-size: 40rpx;padding-top: 50rpx;"><text style="font-size: 40rpx;">{{play2}}</text>元（默认2元，具体面议）</text>
+                    </view>
+            </view>
+            <button class="cost-btn"bindtap="toWait">呼叫{{cart}}</button>
+        </view>
+    </view>
+</repeat>
+    <!-- 页面内容 --> 
+</view>

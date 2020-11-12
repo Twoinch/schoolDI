@@ -1,0 +1,32 @@
+<!--pages/orderService/orderService.wxml-->
+
+<view wx:for="{{dataList}}">
+  <view class="container">
+    <view class="total">
+      <view class="total-driver">
+        <view class="driver-info">
+            <view class="driver-detailed" >
+              <view class="detailed-name">{{item.name}}
+                <view class="orderTotal">{{item.stars}}</view>
+              </view>
+              <view class="detailed-Carnumber">{{item.carnumber}}</view>
+              <view class="detailed-car">{{item.car}}</view>
+            </view>
+        </view>
+        <view class="driver-message">
+          <view class="phone">{{item.phone}}</view>
+        </view>
+      </view>
+      <view class="total-looking"></view>
+    </view>
+    <view class="ft">
+      <view class="ft-cancel"bindtap="toCancel">取消订单</view>
+      <view class="ft-help" bindtap="toApp">寻求帮助</view>
+      <view class="ft-app" bindtap="toEvaluation">结束行程</view>
+    </view>
+  </view>
+</view>
+
+
+
+

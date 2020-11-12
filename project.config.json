@@ -1,0 +1,127 @@
+{
+  "description": "项目配置文件。",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "compileType": "miniprogram",
+  "libVersion": "1.9.98",
+  "appid": "wx9df36e326072d665",
+  "projectname": "didi",
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": -1,
+      "list": [
+        {
+          "id": -1,
+          "name": "map",
+          "pathName": "pages/starting/starting",
+          "query": ""
+        },
+        {
+          "id": 1,
+          "name": "cars",
+          "pathName": "pages/cars/cars",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "wait",
+          "pathName": "pages/wait/wait",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "order",
+          "pathName": "pages/order/order",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "login",
+          "pathName": "pages/login/login",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "orderClosed",
+          "pathName": "pages/orderClosed/orderClosed",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "cancel",
+          "pathName": "pages/cancel/cancel",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "orderService",
+          "pathName": "pages/orderService/orderService",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "destination",
+          "pathName": "pages/destination/destination",
+          "query": ""
+        }
+      ]
+    }
+  }
+}

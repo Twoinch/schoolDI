@@ -1,0 +1,6 @@
+<view class="main">
+<view class="cars">
+    <view class="car-image"> <image src="../../assets/images/cart1.png" bindtap="backIndex" ></image></view>
+    <view class="car-name"><text>电驴</text></view>
+</view>
+</view>
