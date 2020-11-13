@@ -3,7 +3,7 @@
 ####   项目效果截图：https://share.weiyun.com/D7jIPBdq
 ####   项目演示视频：
 ####   代码托管链接：https://github.com/Twoinch/schoolDI.git
-####   2020/11/12  测试推送
+####   2020/11/12 测试推送
 ####   基本业务流程
 1、登录小程序
 2、选择起点和终点，预约服务
