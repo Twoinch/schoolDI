@@ -93,19 +93,19 @@ Page({
       success: function (res) {
         app.globalData.strLatitude=res.latitude
         app.globalData.strLongitude= res.longitude
-      qqmapsdk.reverseGeocoder({
+        qqmapsdk.reverseGeocoder({
         location: {
           latitude:  res.latitude,
           longitude: res.longitude,
-      },
-      success: function (res) {
+        },
+        success: function (res) {
         
         that.setData({
           address: res.result.address,
           bluraddress: res.result.formatted_addresses.recommend
         })
-      },
-      });
+        },
+        });
        
       }
     })
